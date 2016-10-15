@@ -2,7 +2,8 @@
 
 ### Nearket
 
-![alt text](https://github.com/dannielwhatever/nearket/raw/master/logo.png "Nearket App")
+![alt text](https://raw.githubusercontent.com/nearket/NearketMvp1/master/logo.png "Nearket App")
+
 
 ** Encuentra en mercadolibre los productos mas cerca y a mejor precio **
 
@@ -12,7 +13,7 @@ los productos más cercanos y diferenciarlos de acuerdo a su precio.
 Buscando hacer el viaje de quien quiera comprar una bicicleta, mucho más rápido.
 
 
-![alt text](https://github.com/dannielwhatever/nearket/raw/master/captura1.jpg "Nearket App")
+![alt text](https://raw.githubusercontent.com/nearket/NearketMvp1/master/captura1.jpg "Nearket App")
 
 ###### Estructura de los proyectos :octocat:
 
@@ -26,3 +27,8 @@ Buscando hacer el viaje de quien quiera comprar una bicicleta, mucho más rápid
 - Daniel (@dannielwhatever)
 - Seba (@bluesrv)
 - Emilio (@emilioperezh)
+
+
+Si la aplicación te gusta, bajala, ve el code, sólo te pedimos que nos invites unas :beer:
+
+
