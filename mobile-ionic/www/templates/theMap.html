@@ -1,0 +1,42 @@
+<ion-view title="Nearket">
+  <ion-content padding="true" class="has-header">
+
+    <div id="map"
+         data-tap-disabled="true"
+         style="width: 100%;height: 63%;"></div>
+
+
+      <ul class="list">
+        <li class="item item-toggle" ng-click="categToogle('category1')">
+          {{ categories.category1 }}
+          <label class="toggle toggle-balanced">
+            <input type="checkbox" checked="">
+            <div class="track">
+              <div class="handle"/>
+            </div>
+          </label>
+        </li>
+        <li class="item item-toggle" ng-click="categToogle('category2')">
+          {{ categories.category2 }}
+          <label class="toggle toggle-energized">
+            <input type="checkbox" checked="">
+            <div class="track">
+              <div class="handle"/>
+            </div>
+          </label>
+        </li>
+        <li class="item item-toggle" ng-click="categToogle('category3')">
+          {{ categories.category3 }}
+          <label class="toggle toggle-assertive">
+            <input type="checkbox" checked="">
+            <div class="track">
+              <div class="handle"/>
+            </div>
+          </label>
+        </li>
+      </ul>
+
+
+
+  </ion-content>
+</ion-view>

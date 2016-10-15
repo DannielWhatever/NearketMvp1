@@ -1,0 +1,1 @@
+{"version":3,"sources":["factories/factories.module.js"],"names":["angular","module"],"mappings":";;AAAAA,QAAQC,MAAR,CAAe,uBAAf,EAAwC,EAAxC","file":"factories.module.js","sourcesContent":["angular.module('hackaton700.factories', []);\n"]}

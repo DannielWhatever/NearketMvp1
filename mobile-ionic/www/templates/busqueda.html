@@ -1,0 +1,30 @@
+<ion-view title="Nearket">
+
+    <ion-content padding="true" class="has-header">
+      <form class="list">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="search" ng-model="frm.itemSearched" placeholder="¿Qué estas buscando? (e.g:Bici)">
+        </label>
+      </form>
+      <form class="list">
+        <ion-toggle ng-model="frm.reputacion" toggle-class="toggle-positive">Reputación alta</ion-toggle>
+        <label class="item item-input">
+          <input ng-model="frm.minprice" type="text" placeholder="Precio mínimo">
+        </label>
+        <label class="item item-input">
+          <input ng-model="frm.maxprice" type="text" placeholder="Precio Máximo">
+        </label>
+        <ion-toggle ng-model="frm.discount" toggle-class="toggle-positive">Tiene descuento</ion-toggle>
+        <label class="item-text-wrap">
+          <em>Al seleccionar con descuento, se mostraran aquellos Items con descuento desde 10%.</em>
+        </label>
+      </form>
+
+      <a ng-click="busquedaService.setFrm(frm)"
+         ui-sref="map({itemId:frm.itemSearched})" class="button button-balanced  button-block">Buscar</a>
+
+    </ion-content>
+
+
+</ion-view>

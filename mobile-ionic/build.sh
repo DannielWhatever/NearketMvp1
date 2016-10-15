@@ -1,0 +1,5 @@
+
+
+
+gulp
+ionic serve

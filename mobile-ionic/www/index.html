@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/ionic.app.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- polyfills-->
+    <script src="lib/babel-polyfill/browser-polyfill.js"></script>
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- libs -->
+    <script src="lib/ng-lodash/build/ng-lodash.min.js"></script>
+    <script src="lib/ngCordova/dist/ng-cordova.js"></script>
+
+
+    <!-- Mis Conciertos App -->
+    <script src="dist/app.js"></script>
+    <script src="dist/app.constants.js"></script>
+    <script src="dist/app.filters.js"></script>
+    <script src="https://maps.google.com/maps/api/js?key=AIzaSyBRbcCpdZ5P5GqWSwiC70a46gj_3OcZe1U&libraries=geometry"></script>
+
+    <!-- modules -->
+    <script src="dist/config/config.module.js"></script>
+    <script src="dist/controllers/controllers.module.js"></script>
+    <script src="dist/factories/factories.module.js"></script>
+    <script src="dist/services/services.module.js"></script>
+
+    <!-- config -->
+    <script src="dist/config/routes.config.js"></script>
+
+    <!-- controllers -->
+    <script src="dist/controllers/theMap.controller.js"></script>
+    <script src="dist/controllers/home.controller.js"></script>
+    <script src="dist/controllers/busqueda.controller.js"></script>
+
+
+    <!-- factories -->
+    <script src="dist/factories/item.factory.js"></script>
+
+    <!-- services -->
+    <script src="dist/services/busqueda.service.js"></script>
+
+
+  </head>
+
+  <body ng-app="hackaton700">
+    <!--
+      The nav bar that will be updated as we navigate between views.
+    -->
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button></ion-nav-back-button>
+    </ion-nav-bar>
+    <!--
+      The views will be rendered in the <ion-nav-view> directive below
+      Templates are in the /templates folder (but you could also
+      have templates inline in this html file if you'd like).
+    -->
+    <ion-nav-view name="mainview"></ion-nav-view>
+  </body>
+
+</html>

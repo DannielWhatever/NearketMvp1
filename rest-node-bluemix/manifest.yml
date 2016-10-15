@@ -1,0 +1,5 @@
+---
+applications:
+- name: nearket-api
+  host: nearket-api
+  memory: 512MB

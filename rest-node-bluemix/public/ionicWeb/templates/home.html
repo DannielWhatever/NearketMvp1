@@ -1,0 +1,17 @@
+<ion-view title="Nearket">
+  <ion-content padding="true" class="has-header">
+
+    <form class="list">
+      <div class="logo">
+        <img src="img/nearket-1.png" />
+      </div>
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="search" ng-model="itemSearched" placeholder="¿Qué estas buscando? (e.g:Bici)">
+      </label>
+    </form>
+    <a ui-sref="map({itemId:itemSearched})" class="button button-balanced  button-block">Buscar</a>
+    <a ui-sref="busqueda({itemId:itemSearched})" class="button button-calm  button-block">Busqueda Avanzada</a>
+
+  </ion-content>
+</ion-view>

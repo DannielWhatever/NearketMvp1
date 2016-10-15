@@ -1,0 +1,16 @@
+
+#intellij
+*.iml
+.idea
+
+
+#node
+node_modules/
+
+
+#ionic
+platforms/
+plugins/
+
+#app
+www/dist
